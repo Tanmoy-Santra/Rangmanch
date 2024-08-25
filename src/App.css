@@ -1,0 +1,84 @@
+body{
+  background: linear-gradient(to right, #6f409e, #b583da);
+}
+.custom-nav-bg {
+  background-color: #5A189A;
+}
+.bg-nav-text:hover{
+  background-color: #3C096C;
+}
+.bg-nav-text-current{
+  background-color: #3C096C;
+}
+.bg-color-model{
+  background-color: #E0AAFF;
+}
+.bg-footer{
+  background-color:#5A189A;
+}
+.btn-custom-color{
+  background-color: #3C096C;
+}
+.btn-custom-color:hover{
+  background-color:  #5A189A;
+  
+}
+.bg-custom-contact{
+  background-color: #9D4EDD;
+  
+}
+.addto-cart-color{
+  background-color: #6f409e;  
+}
+.addto-cart-color:hover{
+  background-color: #2d0654;  
+}
+.bg-custom-middle {
+  background: linear-gradient(to right, #6f409e, #b583da);
+}
+.bg-color-login{
+  background: linear-gradient(to right, #6f409e, #b583da);
+}
+.bg-color-login-textarea{
+  background-color: #e0b8fe;
+}
+.profile {
+  border: 2.5px solid white;
+}
+.profile:hover{  
+  background-color:  blue;
+
+}
+
+/* Add these styles to your CSS file */
+.product-img-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.product-img-wrapper img {
+  transition: transform 0.3s ease;
+}
+
+.product-img-wrapper:hover img {
+  transform: scale(1.5); /* Adjust scale factor as needed */
+}
+
+.enlarged-image-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.enlarged-image-popup img {
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+}
