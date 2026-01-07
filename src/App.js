@@ -97,6 +97,10 @@ import Error from './Error/Error';
 import UniversalLoader from './Loders/UniversalLoader';
 import AdminUseOnly from './component/AdminUseOnly';
 import EditProfile from './component/EditProfile';
+import Register from './Auth/Register';
+import ForgotPassword from "./Auth/ForgotPassword";
+
+
 
 function App() {
   const [user, setUser] = useState(null);
@@ -139,8 +143,9 @@ function App() {
 
             {/* Authentication Routes */}
             <Route path="/login" element={<Login />} />
+            <Route path="/register" element={<Register />} />
             <Route path="/filldetails" element={<FillDetails />} />
-
+            <Route path="/forgot-password" element={<ForgotPassword />} />
             {/* Protected Routes (Require Login) */}
             <Route path="/home" element={user ? <Home /> : <Navigate to="/login" />} />
             <Route path="/admin-use-only" element={<AdminUseOnly />} />

@@ -144,7 +144,7 @@ export default function Navbar() {
                       <span className="absolute -inset-1.5" />
                       <span className="sr-only">Open user menu</span>
                       <img className="flex items-center justify-center w-8 h-8  text-white font-xl font-bold rounded-full"
-                        src={userPhoto}/>                      
+                        src={userPhoto?userPhoto:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr3jhpAFYpzxx39DRuXIYxNPXc0zI5F6IiMQ&s"}/>                      
                     </MenuButton>
                   </div>
                   <MenuItems
